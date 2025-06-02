@@ -7,7 +7,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-2">
-            <Icon name="Zap" size={32} className="text-violet-600" />
+            <Icon name="Zap" size={32} className="text-blue-600" />
             <span className="text-2xl font-bold text-gray-900">
               ПодпискиПро
             </span>
@@ -16,19 +16,19 @@ const Header = () => {
           <nav className="hidden md:flex items-center space-x-8">
             <a
               href="#subscriptions"
-              className="text-gray-600 hover:text-violet-600 transition-colors"
+              className="text-gray-600 hover:text-blue-600 transition-colors"
             >
               Подписки
             </a>
             <a
               href="#benefits"
-              className="text-gray-600 hover:text-violet-600 transition-colors"
+              className="text-gray-600 hover:text-blue-600 transition-colors"
             >
               Преимущества
             </a>
             <a
               href="#contact"
-              className="text-gray-600 hover:text-violet-600 transition-colors"
+              className="text-gray-600 hover:text-blue-600 transition-colors"
             >
               Контакты
             </a>
@@ -38,7 +38,7 @@ const Header = () => {
             <Button variant="ghost" className="hidden sm:inline-flex">
               Войти
             </Button>
-            <Button className="bg-violet-600 hover:bg-violet-700">
+            <Button className="bg-blue-600 hover:bg-blue-700">
               Начать экономить
             </Button>
           </div>

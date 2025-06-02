@@ -89,21 +89,21 @@ const SubscriptionsGrid = () => {
           {subscriptions.map((sub, index) => (
             <Card
               key={index}
-              className={`relative transition-all duration-300 hover:scale-105 hover:shadow-xl ${sub.popular ? "ring-2 ring-violet-500" : ""}`}
+              className={`relative transition-all duration-300 hover:scale-105 hover:shadow-xl ${sub.popular ? "ring-2 ring-blue-500" : ""}`}
             >
               {sub.popular && (
-                <Badge className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-violet-600">
+                <Badge className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-blue-600">
                   Популярно
                 </Badge>
               )}
 
               <CardHeader className="text-center pb-4">
                 <div className="flex justify-center mb-4">
-                  <div className="bg-violet-100 p-3 rounded-full">
+                  <div className="bg-blue-100 p-3 rounded-full">
                     <Icon
                       name={sub.icon as any}
                       size={32}
-                      className="text-violet-600"
+                      className="text-blue-600"
                     />
                   </div>
                 </div>
@@ -140,7 +140,7 @@ const SubscriptionsGrid = () => {
                   ))}
                 </ul>
 
-                <Button className="w-full bg-violet-600 hover:bg-violet-700">
+                <Button className="w-full bg-blue-600 hover:bg-blue-700">
                   Купить подписку
                 </Button>
               </CardContent>
@@ -152,7 +152,7 @@ const SubscriptionsGrid = () => {
           <Button
             variant="outline"
             size="lg"
-            className="border-violet-600 text-violet-600 hover:bg-violet-600 hover:text-white"
+            className="border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white"
           >
             Посмотреть все подписки
             <Icon name="ArrowRight" size={20} className="ml-2" />

@@ -3,7 +3,7 @@ import Icon from "@/components/ui/icon";
 
 const HeroSection = () => {
   return (
-    <section className="bg-gradient-to-br from-violet-600 via-violet-700 to-purple-800 text-white py-20">
+    <section className="bg-gradient-to-br from-blue-600 via-blue-700 to-sky-500 text-white py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <div className="flex justify-center mb-6">
@@ -19,7 +19,7 @@ const HeroSection = () => {
             <span className="text-yellow-400">для всех сервисов</span>
           </h1>
 
-          <p className="text-xl md:text-2xl mb-8 text-violet-100 max-w-3xl mx-auto">
+          <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-3xl mx-auto">
             Netflix, Spotify, YouTube Premium и 50+ других сервисов по самым
             выгодным ценам. Легально и безопасно.
           </p>
@@ -35,14 +35,14 @@ const HeroSection = () => {
             <Button
               variant="outline"
               size="lg"
-              className="border-white text-white hover:bg-white hover:text-violet-700 px-8 py-4"
+              className="border-white text-white hover:bg-white hover:text-blue-700 px-8 py-4"
             >
               <Icon name="Play" size={20} className="mr-2" />
               Как это работает
             </Button>
           </div>
 
-          <div className="flex justify-center items-center space-x-8 text-violet-200">
+          <div className="flex justify-center items-center space-x-8 text-blue-200">
             <div className="flex items-center space-x-2">
               <Icon name="Shield" size={24} />
               <span>Безопасно</span>
